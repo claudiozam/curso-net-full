@@ -1,0 +1,15 @@
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\bin\Debug\net6.0\ConsoleAppHolaMundo.exe
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\bin\Debug\net6.0\ConsoleAppHolaMundo.deps.json
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\bin\Debug\net6.0\ConsoleAppHolaMundo.runtimeconfig.json
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\bin\Debug\net6.0\ConsoleAppHolaMundo.dll
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\bin\Debug\net6.0\ConsoleAppHolaMundo.pdb
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.csproj.AssemblyReference.cache
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.AssemblyInfoInputs.cache
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.AssemblyInfo.cs
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.dll
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\refint\ConsoleAppHolaMundo.dll
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.pdb
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ConsoleAppHolaMundo.genruntimeconfig.cache
+C:\Users\claud\source\repos\ConsoleAppHolaMundo\obj\Debug\net6.0\ref\ConsoleAppHolaMundo.dll
