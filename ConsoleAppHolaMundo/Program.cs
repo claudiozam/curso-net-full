@@ -1,4 +1,5 @@
-﻿using ConsoleAppHolaMundo;
+﻿
+using ConsoleAppHolaMundo;
 
 Console.WriteLine("Ingresar el 1er numero");
 int numero1 = int.Parse(Console.ReadLine());
@@ -9,6 +10,8 @@ string operacion = Console.ReadLine();
 int total = 0;
 
 Calculadora calculadora1 = new Calculadora();
+Persona persona1 = new Persona();  
+Estudiante estudiante1 = new Estudiante();
 
 switch(operacion)
 {
