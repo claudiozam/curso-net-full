@@ -11,6 +11,7 @@ CuentaCorriente cuentaCorriente1 = new CuentaCorriente(1001, 5000, 1500);
 
 banco.ExtraerDineroDeCuentaBancaria(cuentaCorriente1, 6000);
 
+
 Console.WriteLine(cuentaCorriente1.Saldo);
 
 CajaDeAhorro cajaDeAhorro1 = new CajaDeAhorro(1002, 3000);

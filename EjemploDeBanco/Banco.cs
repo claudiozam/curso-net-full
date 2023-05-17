@@ -16,5 +16,12 @@ namespace EjemploDeBanco
             cuenta.Extraer(monto); //POLIMORFISMO!!!!!!
         }
 
+        public void ExtraerDineroDeCuentaBancaria(CuentaBancaria cuenta, double monto, double impuestos)
+        {
+            this.ExtraerDineroDeCuentaBancaria(cuenta, monto +impuestos);
+            /*Type tipoDeClase = cuenta.GetType();
+            Console.WriteLine(tipoDeClase.Name);
+            cuenta.Extraer(monto + impuestos); //POLIMORFISMO!!!!!!*/
+        }
     }
 }
