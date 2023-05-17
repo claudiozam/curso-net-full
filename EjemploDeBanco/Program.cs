@@ -20,3 +20,10 @@ cajaDeAhorro1.Saldo = 3000;
 banco.ExtraerDineroDeCuentaBancaria(cajaDeAhorro1, 1000);
 
 Console.WriteLine(cajaDeAhorro1.Saldo);
+
+
+Cliente cliente1 = new Cliente(5001, "Juan", "Perez");
+
+Console.WriteLine(cliente1);
+Cliente cliente2 = new Cliente(5002, "Maria", "Lopez");
+
