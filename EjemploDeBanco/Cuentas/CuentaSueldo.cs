@@ -8,6 +8,10 @@ namespace EjemploDeBanco.Cuentas
 {
     internal class CuentaSueldo : CuentaBancaria
     {
+        public CuentaSueldo(long numeroDecuenta, double saldo) : base(numeroDecuenta, saldo)
+        {
+        }
+
         public override void Extraer(double monto)
         {
             throw new NotImplementedException();

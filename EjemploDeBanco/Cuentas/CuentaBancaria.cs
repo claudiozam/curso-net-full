@@ -11,6 +11,17 @@ namespace EjemploDeBanco.Cuentas
         private long numeroDecuenta;
         private double saldo;
 
+        /*public CuentaBancaria()
+        {
+
+        }*/
+
+        public CuentaBancaria(long numeroDecuenta, double saldo)
+        {
+            this.numeroDecuenta = numeroDecuenta;
+            this.saldo = saldo;
+        }
+
         public long NumeroDecuenta { get => numeroDecuenta; set => numeroDecuenta = value; }
         public double Saldo { get => saldo; set => saldo = value; }
 

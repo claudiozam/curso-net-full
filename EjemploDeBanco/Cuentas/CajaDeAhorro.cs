@@ -8,6 +8,11 @@ namespace EjemploDeBanco.Cuentas
 {
     internal class CajaDeAhorro : CuentaBancaria
     {
+        public CajaDeAhorro(long numeroDecuenta, double saldo) : base(numeroDecuenta, saldo)
+        {
+
+        }
+
         public override void Extraer(double monto)
         {
             if(base.Saldo - monto >= 0)

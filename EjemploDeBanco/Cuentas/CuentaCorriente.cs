@@ -10,6 +10,11 @@ namespace EjemploDeBanco.Cuentas
     {
         private double limiteExtra = 10000;
 
+        public CuentaCorriente(long numeroDecuenta, double saldo, double limiteExtra) : base(numeroDecuenta, saldo)
+        {
+            this.limiteExtra = limiteExtra;
+        }
+
         public double LimiteExtra { get => limiteExtra; set => limiteExtra = value; }
 
         public override void Extraer(double monto)
