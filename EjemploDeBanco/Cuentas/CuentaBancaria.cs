@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjemploDeBanco.Cuentas
 {
-    internal class CuentaBancaria
+    internal abstract class CuentaBancaria
     {
         private long numeroDecuenta;
         private double saldo;
@@ -14,11 +14,10 @@ namespace EjemploDeBanco.Cuentas
         public long NumeroDecuenta { get => numeroDecuenta; set => numeroDecuenta = value; }
         public double Saldo { get => saldo; set => saldo = value; }
 
-
-        public virtual void Extraer(double monto)
-        {
+        public abstract void Extraer(double monto);
+        /*{
             Console.WriteLine("Ejecutando Extraer de la CuentaBancaria " + NumeroDecuenta);
             saldo = saldo - monto;
-        }
+        }*/
     }
 }
