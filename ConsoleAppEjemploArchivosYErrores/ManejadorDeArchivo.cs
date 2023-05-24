@@ -4,15 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using log4net;
 
 namespace ConsoleAppEjemploArchivosYErrores
 {
     internal class ManejadorDeArchivo
     {
+        private static readonly ILog log = LogManager.GetLogger("ManejadorDeArchivo.cs");
 
         public void LeerDatosCSV(string ruta)
         {
             StreamReader sr = null;
+            log.Info("Intentando leer el archivo " + ruta);
+
             try
             {
                 sr = new StreamReader(ruta);
@@ -31,6 +35,7 @@ namespace ConsoleAppEjemploArchivosYErrores
             }
             catch (Exception e)
             {
+                log.Error("Hay un error al intentar leer el archivo",e);
                 //Console.WriteLine("Error al leer el archivo: " + e.Message);
                 throw;
             }

@@ -14,11 +14,20 @@ namespace ConsoleAppEjemploArchivosYErrores
         public void HacerAlgoConError()
         {
             log.Debug("Ejecutando HacerAlgoConError.....");
-            string[] nombres = new string[2];
-            nombres[99] = "Pedro";
-            string texto = null;
+            try
+            {
+                string[] nombres = new string[2];
+                nombres[99] = "Pedro";
+                string texto = null;
 
-            string textoUpper = texto.ToUpper();
+                string textoUpper = texto.ToUpper();
+            } 
+            catch (Exception ex)
+            {
+                log.Error("Hay un error al hacer algo....", ex);
+                throw;
+            }
+
         }
     }
 }
