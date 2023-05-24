@@ -37,7 +37,7 @@ namespace ConsoleAppEjemploArchivosYErrores
             {
                 log.Error("Hay un error al intentar leer el archivo",e);
                 //Console.WriteLine("Error al leer el archivo: " + e.Message);
-                throw;
+                throw new MiPropiaException("Este es un ejemplo de error propio...");
             }
             finally
             {
