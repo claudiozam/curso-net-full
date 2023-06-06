@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjemploDeBanco.Cuentas
 {
-    internal class CajaDeAhorro : CuentaBancaria
+    internal class CajaDeAhorro : CuentaBancaria, IProducto
     {
         public CajaDeAhorro(long numeroDecuenta, double saldo) : base(numeroDecuenta, saldo)
         {
@@ -23,6 +23,16 @@ namespace EjemploDeBanco.Cuentas
             {
                 Console.WriteLine("Me suena que no tenes tanta plata.....");
             }
+        }
+
+        public double RecuperarElPrecio()
+        {
+            return 10000;
+        }
+
+        public void Vender()
+        {
+            Console.WriteLine("Listo vendio la caja de ahorro..");
         }
 
     }

@@ -28,3 +28,7 @@ Cliente cliente1 = new Cliente(5001, "Juan", "Perez");
 Console.WriteLine(cliente1);
 Cliente cliente2 = new Cliente(5002, "Maria", "Lopez");
 
+SeguroDelAuto seguroDelAuto = new SeguroDelAuto();
+
+banco.VenderProducto(cajaDeAhorro1);
+banco.VenderProducto(seguroDelAuto);

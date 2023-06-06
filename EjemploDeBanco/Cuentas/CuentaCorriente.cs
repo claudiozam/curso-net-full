@@ -6,9 +6,20 @@ using System.Threading.Tasks;
 
 namespace EjemploDeBanco.Cuentas
 {
-    internal class CuentaCorriente : CuentaBancaria
+    internal class CuentaCorriente : CuentaBancaria, IProducto
     {
         private double limiteExtra = 10000;
+
+
+        public double RecuperarElPrecio()
+        {
+            return 15000;
+        }
+
+        public void Vender()
+        {
+            Console.WriteLine("Listo vendio la cuenta corriente..");
+        }
 
         public CuentaCorriente(long numeroDecuenta, double saldo, double limiteExtra) : base(numeroDecuenta, saldo)
         {

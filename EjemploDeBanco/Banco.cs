@@ -9,6 +9,16 @@ namespace EjemploDeBanco
 {
     internal class Banco
     {
+
+        public void VenderProducto(IProducto producto)
+        {
+            Type tipoDeClase = producto.GetType();
+            Console.WriteLine(tipoDeClase.Name);
+            producto.Vender();
+            Console.WriteLine("Precio: " + producto.RecuperarElPrecio());
+   
+        }
+
         public void ExtraerDineroDeCuentaBancaria(CuentaBancaria cuenta, double monto)
         {
             Type tipoDeClase = cuenta.GetType();
