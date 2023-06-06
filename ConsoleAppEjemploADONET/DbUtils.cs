@@ -14,10 +14,9 @@ namespace ConsoleAppEjemploADONET
         public static MySqlConnection RecuperarNuevaConnection()
         {
             string connectionString = ConfigurationManager.ConnectionStrings["mySqlConnection"].ConnectionString;
-            MySqlConnection connection = null;
-            connection = new MySqlConnection(connectionString);
+            MySqlConnection connection = new MySqlConnection(connectionString);
             connection.Open();
-            return connection
+            return connection;
         }
     }
 }
